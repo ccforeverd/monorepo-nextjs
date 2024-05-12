@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^0.38.0"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "monorepo-nextjs",
+  "scripts": {
+    "dev:next": "dotenvx run --quiet -- pnpm -F \"./apps/next-web\" dev",
+    "dev:next:bad": "pnpm -F \"./apps/next-web\" dev:bad"
+  },
+  "version": "1.0.0"
+}
